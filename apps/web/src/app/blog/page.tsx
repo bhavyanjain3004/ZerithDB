@@ -106,10 +106,14 @@ export default function BlogPage() {
             <BookOpen className="w-8 h-8" />
           </div>
           <h1 className="text-5xl md:text-6xl font-bold tracking-tight text-gray-900 mb-6">
-            Blog <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-indigo-600">Coming Soon</span>
+            Blog{" "}
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-indigo-600">
+              Coming Soon
+            </span>
           </h1>
           <p className="mt-6 text-xl text-gray-500 text-balance leading-relaxed">
-            We&apos;re preparing deep dives into CRDTs, peer-to-peer web architecture, and tutorials on building offline-first applications. Stay tuned!
+            We&apos;re preparing deep dives into CRDTs, peer-to-peer web architecture, and tutorials
+            on building offline-first applications. Stay tuned!
           </p>
           <div className="mt-10 flex items-center justify-center gap-4">
             <Link
